@@ -25,7 +25,7 @@ function App() {
           >
             -
           </button>
-          <h1 className="font-bold ">Counter : {counter}</h1>
+          <h1 className="font-bold ">Days : {counter}</h1>
           <button
             onClick={() => setCounter((c) => c + step)}
             className=" border  hover:bg-white hover:text-blue-600 transition-all border-white size-8 flex justify-center items-center"
