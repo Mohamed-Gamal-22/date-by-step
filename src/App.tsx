@@ -23,7 +23,7 @@ function App() {
             value={step}
             onChange={(e) => setStep(+e.target.value)}
             type="range"
-            min="0"
+            min="1"
             max="10"
             className="w-1/2"
           />
